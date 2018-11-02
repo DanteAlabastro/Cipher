@@ -3,7 +3,7 @@ n = 1
 # input - strip white space and punctuation. all lowercase.
 
 # key
-key = 'test'
+key = 'tests'
 
 # key as list
 keyL = list(key)
@@ -39,4 +39,24 @@ def c(a, b):
         print(chr(d + 70))
     else:
         print(chr(d + 96))
+
+
+def encrypt():
+    for i in text:
+        print(i)
+
+
+encrypt()
+
+list1 = [1, 2, 3, 4]
+
+list2 = [5, 6, 7, 8]
+
+
+def combine():
+    i = 0
+    while i < len(list1):
+        list1[i] += list2[i]
+        i += 1
+    print(list1)
 
