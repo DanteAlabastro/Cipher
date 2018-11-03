@@ -1,12 +1,25 @@
 # import hashlib
 # from hashlib import sha256
+# hash_key = sha256(str.encode(key)).hexdigest()
 import re
 
-# hash_key = sha256(str.encode(key)).hexdigest()
 
 print('\n', '{:^80}'.format('Dante\'s de Vigenére cipher\n'))
 print('{:^80}'.format('*Numbers, spaces and special characters are removed.*'))
 
+#Menu
+def menu():
+    toggle = True
+    while toggle:
+        choice = (input("\nEncryption or Decryption?")).lower()
+        if choice in ('n', 'e', 'en', 'encrypt', 'encryption'):
+            return user_input()
+        elif choice in ('d', 'de', 'decrypt', 'decryption'):
+            print("\n Not yet!")
+            toggle = False
+        else:
+            print("\n Sorry, I couldn't understand that. \n")
+            return menu()
 
 # input
 def user_input():
@@ -31,7 +44,7 @@ def user_input():
         toggle = False
 
 
-# With user input
+# Encrypt user input with key
 def cipher2(text2, key2):
     ciphertext = []
     i = 0
@@ -50,10 +63,10 @@ def cipher2(text2, key2):
     print('\n', '{:^80}'.format('Your encrypted message is:'))
     print('\n', '{:^80}'.format(joined_ciphertext))
 
-    return user_input()
+    return menu()
 
 
-user_input()
+menu()
 
 '''
 # Testing Functions and params
