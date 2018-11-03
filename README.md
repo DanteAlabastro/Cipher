@@ -68,10 +68,11 @@ Let's hope everything goes well!
 The output of the encryption or decryption will be displayed.
 > Try different encryption keys to see the difference in the encryption!
 
-<hr>
+## Conclusion:
 
-<p style=text-align:center;font-style:bold;>I hope you enjoy! I had a great time building this cipher and hope you like it.
-<br>Hopefully I can publish it as a webapp in the near future.</>
+I hope you enjoy! I had a great time building this cipher and hope you like it.
+<br>Hopefully I can publish it as a webapp in the near future.
+<br>The encryption method can certainly be improved upon but I wanted to stay true to the original design.
 
 ##### *Disclaimer for cryptographic the nitpicks:*
 
