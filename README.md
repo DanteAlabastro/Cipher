@@ -1,5 +1,5 @@
 #  Blaise de Vigenére Cipher
-A Python creation of the [Vigenére cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher).
+Cipher.py is a self-standing Python creation of the [Vigenére cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher). It can be downloaded and ran in a Python 3 console.
 
 ## Summary:
 
