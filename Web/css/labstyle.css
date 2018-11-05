@@ -1,0 +1,102 @@
+
+body {
+    margin: auto; 
+    width: 95%;
+}
+
+img {
+    float: top;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+table {width: 100%; margin: auto; }
+table caption {padding: 2em; font-weigth:bold; font-size: 18; color: blue;}
+table tr td a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+h1,h2,h3, h4 {
+    color: black;
+}
+
+ul.menu {
+    margin: 0 auto;
+    width: 90%;
+    list-style-type: none;
+    margin-top: 0.5em;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.1em 0.1em;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+ul.menu li a:hover {
+    background-color: #B0B0B0;
+}
+
+pre {
+    font-weight: semi-bold;
+    background-color: #D0D0D0;
+    padding-left: 1.0em;
+    padding-top: 1em;
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    width: 80%;
+}
+
+
+
+fieldset {
+    margin-top: 1em;
+    background-color: #F0F0F0;
+    border: 1px solid gray;
+    margin-left: 1em;
+    margin-right: 2em;
+    
+}
+
+legend {
+    background-color: white;
+
+    color: firebrick;
+    font-size: 18pt;
+    font-weight: bold;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+table {
+    border-collapse: collapse;
+}
+table tr th {
+    color: blue;
+    font-weight: bold;
+}
+table tr td {
+    border: 1px solid white;
+    padding: 0.5em;
+    background-color: #F0F0F0;
+}
+
+ul li {
+    padding: 0.25em 0.25em;
+}
+
