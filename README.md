@@ -8,7 +8,7 @@ A `message` is encrypted by using a `keyword`.
 <br>The `ciphertext` is decrypted by using the `keyword` to reverse the [Caesar ciphers](https://en.wikipedia.org/wiki/Caesar_cipher) of the `message`.
 
 ## Use:
-
+> ##### It is required that you have [Python](https://www.python.org/downloads/) installed. Then you can download and run cipher.py on your own system.
 #### 1. Selection
 ```
 Encryption or Decryption?
