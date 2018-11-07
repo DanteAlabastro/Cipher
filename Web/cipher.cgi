@@ -33,12 +33,12 @@ ciphertext = form.getvalue('ciphertext', '')
 PAGE = """
 <html>
   <head>
-    <title>Vigenere Cipher by Dante A.</title>
+    <title>Vigenère Cipher by Dante A.</title>
     <link rel="stylesheet" type="text/css" href="/~dalabast/cs131a/css/labstyle.css">
   </head>
 
   <body>
-    <h1>de Vignere Cipher</h1>
+    <h1>de Vigenère Cipher</h1>
     <h4>coding by {author} for {course}</h4>    
   <a name='encrypt'></a>
   <form id="encrypt" method='POST'>
