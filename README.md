@@ -71,7 +71,8 @@ The output of the encryption or decryption will be displayed.
 ## Conclusion:
 
 I hope you enjoy! I had a great time building this cipher and hope you like it.
-<br>Hopefully I can publish it as a webapp in the near future.
+<br>~~Hopefully I can publish it as a webapp in the near future.~~
+<br>**[The cipher is now available online!](https://hills.ccsf.edu/~dalabast/cs131a/cipher.cgi)**
 <br>The encryption method can certainly be improved upon but I wanted to stay true to the original design.
 
 ##### *Disclaimer for cryptographic the nitpicks:*
