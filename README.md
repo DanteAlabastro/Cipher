@@ -1,5 +1,5 @@
 #  Blaise de Vigenère Cipher
-Cipher.py is a standalone Python creation of the [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher). It can be downloaded and ran in a Python 3 console.
+Cipher.py is a standalone Python creation of the [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher). It can be downloaded and run in a Python 3 console.
 
 ## Summary:
 
