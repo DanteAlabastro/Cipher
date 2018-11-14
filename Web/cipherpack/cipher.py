@@ -7,10 +7,12 @@ import re
 def test(word):
     return word
 
+
 def clean(i):
-	input = i
-	clean_input = re.sub('[^a-z]', '', input.lower())
-	return clean_input
+    input = i
+    clean_input = re.sub('[^a-z]', '', input.lower())
+    return clean_input
+
 
 # Input for encryption
 def user_input(m, k):
@@ -21,7 +23,8 @@ def user_input(m, k):
     clean_key = re.sub('[^a-z]', '', input_key.lower())
 
     if len(clean_key) < len(clean_text):
-        return 'Please enter a cipher key longer than {} characters. Numbers, spaces and special characters are removed.'.format(len(clean_text))
+        return 'Please enter a cipher key longer than {} characters. Numbers, spaces and special characters are removed.'.format(
+            len(clean_text))
 
     return encrypt(clean_text, clean_key)
 
@@ -35,18 +38,17 @@ def user_input_decrypt(c, k):
     clean_key = re.sub('[^a-z]', '', input_key.lower())
 
     if len(clean_key) < len(clean_text):
-         return 'Please enter a cipher key longer than {} characters. Numbers, spaces and special characters are removed.'.format(len(clean_text))
+        return 'Please enter a cipher key longer than {} characters. Numbers, spaces and special characters are removed.'.format(
+            len(clean_text))
 
     return decrypt(clean_text, clean_key)
-
 
 
 # Encrypt user input with key
 def encrypt(text2, key2):
     ciphertext = []
-    i = 0
 
-    while i < len(text2):
+    for i in range(len(text2)):
         d = (ord(text2[i]) - 96) + (ord(key2[i]) - 96)
         if d > 26:
             # Subtract 26 and add 96
@@ -58,15 +60,14 @@ def encrypt(text2, key2):
 
     joined_ciphertext = (''.join(ciphertext)).upper()
 
-    return (joined_ciphertext)
+    return joined_ciphertext
 
 
 # Decrypt ciphertext based on key
 def decrypt(encrypted, key):
     cleartext = []
-    i = 0
 
-    while i < len(encrypted):
+    for i in range(len(encrypted)):
         d = (ord(encrypted[i]) - 96) - (ord(key[i]) - 96)
         if d < 0:
             # Add 26 and 96
@@ -77,4 +78,4 @@ def decrypt(encrypted, key):
             i += 1
 
     joined_cleartext = (''.join(cleartext)).upper()
-    return (joined_cleartext)
+    return joined_cleartext
